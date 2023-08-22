@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LendNU</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+        <script src="https://kit.fontawesome.com/a6ea65d7ac.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+    <div id="projectabout">
+        <div class = "aboutcontainer">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id = "sidemenu">
+                    <li><a href="index.html#header">Home</a></li>
+                    <li><a href="index.html#portfolio">Projects</a></li>
+                    <!-- <li><a href="#myskills">Skills</a></li> -->
+                    <li><a target="_blank" href="Park_Laura.pdf">Resume</a></li>
+                    <li><a target = "_blank" href="mailto: laurapark2025@u.northwestern.edu">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>  
+    <div id="about">
+        <div class = "container">
+            <div class = "row">
+                <div class = "about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class = "about-col-2">
+                    <h1>About Me</h1>
+                    <p class="project-col-2">I am currently a third-year student at Northwestern University studying computer science with minors in business 
+                        and entrepreneurship. During my time at Northwestern, I have actively engaged in coursework that has equipped 
+                        me with a solid understanding of developing technology that fulfills the specific needs of its users. I strive 
+                        to operate with the purpose of working to weave the right technological innovations at the right time. <br>
+                        <p class="project-col-2"></p>
+                        <p class="project-col-2">I've had the incredible experience of spending my childhood years moving across continents from San Diego, CA to Seoul, 
+                        South Korea, to Paramus, NJ. I crossed paths with family, friends, and strangers who
+                        hold diverse perspectives which I have been fortunate to listen in on. Through hands on projects and internships,
+                        I've translated my innate appreciation for connecting with other individuals into a professional setting as I aim to 
+                        develop technology that impacts people uniquely. </p>
+                        <p class="project-col-2"></p>
+                        <p class="project-col-2">
+                        In my free time I enjoy baking, running, swimming, traveling, and listening to podcasts.</p></p>
+                        
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="problem">
+            <div class="container">
+                <div class="desc-list">
+                    <div class="feature">
+                        <div class="desc">
+                            
+                            <img src ="images/running.png">
+                            <p>Post Big10K with friends!!
+                            </p>
+                            
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <div class="desc">
+
+                            <img src ="images/baking.png">
+                            <p>My favorite thing to bake
+                            </p>
+                            
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <div class="desc">
+                            
+                            <img src ="images/nature.png">
+                            <p>Favorite way to clear my mind
+                            </p>
+                        </div>
+                    </div>
+            </div>
+    </div>
+</div>
+<div id="contact">
+    <div class="contact">
+        <div class="contact-list">
+            <div class="social-icons">
+                <a target="_blank" href="mailto: laurapark2025@u.northwestern.edu"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <div class="social-icons">
+                <a target="_blank" href="https://www.linkedin.com/in/laura-park-6914ba225/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div class="social-icons">
+                <a target="_blank" href="Park_Laura.pdf"><i class="fa-solid fa-file"></i></a>
+            </div>
+             
+        </div>
+    
+    </div>
+    
+</div>
+</body>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");         
+            }
+    </script>
+</body>
+</html>
