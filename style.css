@@ -449,6 +449,14 @@ nav .fas{
 
 .project-col-1 {
     flex-basis: 35%;
+    text-align: center;
+}
+.project-col-1 a {
+    color: #1f1235;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    font-family: "Jost";
 }
 
 .project-col-1 img {
@@ -457,6 +465,8 @@ nav .fas{
     display:block;
     margin-left:auto;
     margin-right:auto;
+    margin-bottom: 20px;
+
 }
 
 .project-col-2 {
